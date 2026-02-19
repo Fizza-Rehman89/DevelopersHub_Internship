@@ -17,3 +17,5 @@ Target column → the output you want to predict (e.g., species of flower)
 Numerical features → SepalLengthCM, SepalWidthCM, PetalLengthCM, PetalWidthCM 
 
 Categorical target → Species (Setosa, Versicolor, Virginica)
+
+
