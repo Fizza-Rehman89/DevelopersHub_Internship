@@ -1,9 +1,17 @@
-Task 1: Exploring and Visualizing a Simple Dataset
-Objective:
-Learn how to load, inspect, and visualize a dataset to understand data trends and distributions.
-Dataset:
-Iris Dataset (CSV format, can be loaded via seaborn or downloaded)
+1. What is a Dataset?
 
+A dataset is a collection of data, usually in rows and columns.
 
-Step1 : 
-I load the Iris Dataset from kaggle 
+Rows → observations (e.g., a flower sample)
+
+Columns → features/attributes (e.g., petal length, petal width)
+
+Target column → the output you want to predict (e.g., species of flower)
+
+| SepalLengthCM | SepalWidthCM | PetalLengthCM | PetalWidthCM | Species |
+| -----------   | ----------   | -----------   | ----------   | ------- |
+| 5.1           | 3.5          | 1.4           | 0.2          | Iris-setosa  |
+
+Numerical features → SepalLengthCM, SepalWidthCM, PetalLengthCM, PetalWidthCM 
+
+Categorical target → Species (Setosa, Versicolor, Virginica)
